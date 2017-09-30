@@ -8,12 +8,30 @@
     <packaging>jar</packaging>
 
     <name>spring-webmvc-velocity</name>
-    <url>http://maven.apache.org</url>
+    <url>https://github.com/linux-china/spring-webmvc-velocity</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>5.0.0.RELEASE</spring.version>
     </properties>
+
+    <scm>
+        <connection>scm:git:git@github.com:linux-china/spring-webmvc-velocity.git</connection>
+        <developerConnection>scm:git:git@github.com:linux-china/spring-webmvc-velocity.git</developerConnection>
+        <url>https://github.com/linux-china/spring-webmvc-velocity</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>linux_china</id>
+            <name>Jacky Chan</name>
+            <email>libing.chen@gmail.com</email>
+            <url>https://twitter.com/linux_china</url>
+            <roles>
+                <role>Developer</role>
+            </roles>
+        </developer>
+    </developers>
 
     <dependencies>
         <dependency>
